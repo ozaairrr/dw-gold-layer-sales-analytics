@@ -69,8 +69,3 @@ These are sourced from the data warehouse project repository: [Data Warehouse Pr
 ## Contact
 For questions or collaboration, contact Ozair at: [Your Email or LinkedIn]
 
----
-
-Feel free to customize this with any specific file or folder names you use or additional insights you want to highlight.
-
-Would you like me to help draft the README for your data warehouse repo as well?
