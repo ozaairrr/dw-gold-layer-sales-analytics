@@ -6,11 +6,21 @@ This project performs comprehensive Exploratory Data Analysis (EDA) and advanced
 The goal is to extract valuable business insights such as sales trends, customer segmentation, product performance, and cumulative analytics to support data-driven decision-making.
 
 ## Project Structure
-- **Exploratory Data Analysis (EDA):**  
-  Initial data profiling queries that explore key dataset characteristics, including customer demographics, product catalogs, sales summaries, and distributions across geography and categories.
+### 📊 Exploratory Data Analysis (EDA)
+Initial data profiling and discovery queries that explore:
+- **Dataset Characteristics:** First/last order dates, customer age ranges, total business metrics
+- **Geographic Distribution:** Customer locations and sales by country
+- **Product Catalog Analysis:** Categories, subcategories, and product variety
+- **Business Scale Metrics:** Total sales, customers, orders, and product counts
+- **Ranking & Performance:** Top/bottom performing products and customers
 
-- **Data Analysis (DA):**  
-  Advanced analytical queries applying window functions, ranking, segmentation, year-over-year comparisons, cumulative totals, and KPI calculations for customers and products.
+### 📈 Data Analysis (DA) 
+Advanced analytical queries focusing on:
+- **Time Series Analysis:** Monthly/yearly trends with running totals and averages
+- **Customer Segmentation:** VIP, Regular, and New customer classification based on spending and loyalty
+- **Product Performance Analytics:** Year-over-year comparisons and performance benchmarking
+- **Revenue Attribution:** Category contribution analysis and product cost segmentation
+- **KPI Reporting:** Comprehensive customer and product report views with key metrics
 ```
 Data Warehouse (Separate Repo) → Gold Layer Views → This Analytics Project
      ↓                              ↓                    ↓
@@ -32,7 +42,7 @@ Bronze/Silver Layers          Curated Business Views   EDA + Advanced Analysis
   - `gold_dim_products`
   - `gold_fact_sales`
 
-These are sourced from the data warehouse project repository: [Data Warehouse Project Repo](LINK_TO_YOUR_DW_REPO)
+These are sourced from the data warehouse project repository: [Data Warehouse Project Repo](https://github.com/ozaairrr/sql-datawarehouse-project/tree/main)
 
 - MySQL (or compatible SQL engine) capable of running advanced SQL features (window functions, CTEs)
 
