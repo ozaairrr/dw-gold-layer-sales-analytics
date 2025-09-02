@@ -36,6 +36,17 @@ Bronze/Silver Layers          Curated Business Views   EDA + Advanced Analysis
 - Utilize window functions such as RANK(), LAG(), ROW_NUMBER(), and AVG() OVER()
 - Comprehensive use of SQL Common Table Expressions (CTEs) for cleaner queries
 
+```
+## Business Metrics & KPIs
+
+| Metric Category       | Key Metrics                                               |
+|----------------------|-----------------------------------------------------------|
+| **Sales Analytics**    | Monthly sales trends, cumulative revenue, average order value |
+| **Customer Insights**  | Customer segments (VIP/Regular/New), lifetime value, recency    |
+| **Product Performance**| Category contributions, year-over-year growth, cost analysis |
+| **Operational KPIs**   | Order patterns, quantity trends, price analysis          |
+```  
+
 ## Dependencies
 - This project expects a data warehouse with the **gold layer views** available, specifically:
   - `gold_dim_customers`
