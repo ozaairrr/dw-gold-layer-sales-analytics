@@ -12,6 +12,11 @@ The goal is to extract valuable business insights such as sales trends, customer
 - **Data Analysis (DA):**  
   Advanced analytical queries applying window functions, ranking, segmentation, year-over-year comparisons, cumulative totals, and KPI calculations for customers and products.
 
+Data Warehouse (Separate Repo) → Gold Layer Views → This Analytics Project
+     ↓                              ↓                    ↓
+Bronze/Silver Layers          Curated Business Views   EDA + Advanced Analysis
+
+
 ## Key Features
 - Analyze sales trends over months and years with running totals and averages
 - Segment customers by spending behavior and loyalty (VIP, Regular, New)
