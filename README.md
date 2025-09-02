@@ -21,11 +21,6 @@ Advanced analytical queries focusing on:
 - **Product Performance Analytics:** Year-over-year comparisons and performance benchmarking
 - **Revenue Attribution:** Category contribution analysis and product cost segmentation
 - **KPI Reporting:** Comprehensive customer and product report views with key metrics
-```
-Data Warehouse (Separate Repo) → Gold Layer Views → This Analytics Project
-     ↓                              ↓                    ↓
-Bronze/Silver Layers          Curated Business Views   EDA + Advanced Analysis
-```
 
 ## Key Features
 - Analyze sales trends over months and years with running totals and averages
@@ -75,7 +70,3 @@ These are sourced from the data warehouse project repository: [Data Warehouse Pr
 - Automation of query execution and results delivery via ETL orchestration tools.
 - Expansion into customer cohort analysis and churn prediction.
 - Improved documentation and parameterization for different environments.
-
-## Contact
-For questions or collaboration, contact Ozair at: [Your Email or LinkedIn]
-
